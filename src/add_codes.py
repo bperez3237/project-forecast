@@ -12,11 +12,6 @@ cost_rprt_df = pd.read_excel(cost_rprt_xls)
 sched_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Schedule\M007 Billing Cost Schedule - 01.25.23.xlsx')
 sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')
 
-# print(cost_rprt_df.columns)
-# print(sched_df.columns)
-
-# print(cost_rprt_df['Phase'].unique())
-
 def array_differences(array1, array2):
     #return an array values which not shared between the two arrays
     return [x for x in array1 if x not in array2] + [x for x in array2 if x not in array1]
@@ -41,24 +36,13 @@ def add_codes_to_df(cost_report_df, schedule_df):
 
 
 def write_sheet(workbook, worksheet, updated_df):
-    # for index, value in enumerate(updated_df.columns):
-
     for index, col in enumerate(updated_df.columns):
         worksheet.write(0, index, col, heading_format(workbook))
 
 
-    # for row_index, row in enumerate(updated_df.iterrows()):
-    #     print((row))
-
     for y in range(updated_df.shape[0]):
         for x in range(updated_df.shape[1]):
-            # this_format = string_format(workbook, '#FFFFFF') if (x<2 and x>=15) else number_format(workbook, '#FFFFFF')
-           
-
-            # print(pd.isna(updated_df.iloc[y,x]))
-            # worksheet.write(y+1,x,f"{y}{x}")
-            print(x,y)
-            worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 and x>=15) else number_format(workbook, '#FFFFFF'))
+            worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 or (x>=15 and x<18)) else number_format(workbook, '#FFFFFF'))
 
 
 
