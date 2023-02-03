@@ -1,9 +1,10 @@
-﻿from numpy import number
+﻿import numpy as np
 import xlsxwriter as xl
 import pandas as pd
 from datetime import date
 import pprint as pp
 from formats import *
+import math
 
 cost_rprt_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Contract Forecasting Spreadsheet\Period 2 Export 02.02.23.xlsx')
 cost_rprt_df = pd.read_excel(cost_rprt_xls)
@@ -39,25 +40,25 @@ def add_codes_to_df(cost_report_df, schedule_df):
     return updated_report_df.sort_values(by=['Code'])
 
 
-# print(add_codes_to_df(cost_rprt_df, sched_df))
-
 def write_sheet(workbook, worksheet, updated_df):
     # for index, value in enumerate(updated_df.columns):
 
-    #     print(index, value)
     for index, col in enumerate(updated_df.columns):
         worksheet.write(0, index, col, heading_format(workbook))
-    # for index, row in updated_df.iterrows():
 
-        # if index == 0:
-            # print(index, type(row))
-            # worksheet.write_row(index, 0, row, heading_format(workbook))
-            # for col in row:
-                # print(col)
 
-        # else:
+    # for row_index, row in enumerate(updated_df.iterrows()):
+    #     print((row))
 
-    # print(updated_df)
+    for y in range(updated_df.shape[0]):
+        for x in range(updated_df.shape[1]):
+            # this_format = string_format(workbook, '#FFFFFF') if (x<2 and x>=15) else number_format(workbook, '#FFFFFF')
+           
+
+            # print(pd.isna(updated_df.iloc[y,x]))
+            # worksheet.write(y+1,x,f"{y}{x}")
+            print(x,y)
+            worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 and x>=15) else number_format(workbook, '#FFFFFF'))
 
 
 
