@@ -42,7 +42,7 @@ def write_sheet(workbook, worksheet, updated_df):
 
     for y in range(updated_df.shape[0]):
         for x in range(updated_df.shape[1]):
-            worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 or (x>=15 and x<18)) else number_format(workbook, '#FFFFFF'))
+            worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 or (x>=15 and x<18)) else currency_format(workbook, '#FFFFFF'))
 
 
 
