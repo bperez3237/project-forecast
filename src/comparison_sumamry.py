@@ -47,7 +47,6 @@ d2 = date(2023, 1,31)
 print(business_days(d2, d1))
 
 
-
 data_dic = {
     'SITE': {
             'ACTIVITIES': activities_df[activities_df['Category'] == 'SITE'],
