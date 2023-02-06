@@ -44,23 +44,107 @@ def business_days(day_1, day_2):
 d1 =  date(2023, 2,6)
 d2 = date(2023, 1,31)
 
-print(business_days(d2, d1))
+# print(business_days(d2, d1))
 
 
 data_dic = {
     'SITE': {
             'ACTIVITIES': activities_df[activities_df['Category'] == 'SITE'],
             'BILLINGS': billing_sched_df[billing_sched_df['Category 1'] == 'SITE'],
-            'COSTS': cost_rprt_df[cost_rprt_df['Category 1'] == 'SITE']
+            'COSTS': cost_sched_df[cost_sched_df['Category 1'] == 'SITE']
     },
     'NEW BUILDINGS': {
             'ACTIVITIES': activities_df[activities_df['Category'] == 'NEW BUILDINGS'],
             'BILLINGS': billing_sched_df[billing_sched_df['Category 1'] == 'NEW BUILDINGS'],
-            'COSTS': cost_rprt_df[cost_rprt_df['Category 1'] == 'NEW BUILDINGS']
+            'COSTS': cost_sched_df[cost_sched_df['Category 1'] == 'NEW BUILDINGS']
     },
     'EXISTING BUILDINGS': {
             'ACTIVITIES': activities_df[activities_df['Category'] == 'EXISTING BUILDINGS'],
             'BILLINGS': billing_sched_df[billing_sched_df['Category 1'] == 'EXISTING BUILDINGS'],
-            'COSTS': cost_rprt_df[cost_rprt_df['Category 1'] == 'EXISTING BUILDINGS']
+            'COSTS': cost_sched_df[cost_sched_df['Category 1'] == 'EXISTING BUILDINGS']
     }
 }
+
+# print(activities_df.columns)
+# print(billing_sched_df.columns)
+
+
+# pp.pprint(data_dic)
+
+# print(cost_sched_df[])
+# print(billing_sched_df['Sub'])
+# print(activities_df['Sub'])
+# print(billing_sched_df['Sub'].unique().tolist())
+# print(activities_df['Sub'].to_list().unique())
+
+sub_list = pd.concat([billing_sched_df['Sub'],activities_df['Sub']], axis = 0).dropna().unique().tolist()
+sub_list.sort()
+
+
+# pp.pprint(sub_list)
+# print({sub: {} for sub in sub_list})
+
+def create_dictionary(billing_df, activities_df, sub_list):
+    dic = {sub: {} for sub in sub_list}
+    for y in range(billing_df.shape[0]):
+        if not pd.isna(billing_df['Category 1'][y]):
+            if billing_df['Category 1'][y] in dic[billing_df['Sub'][y]]:
+                if billing_df['SOV Level 1'][y] not in dic[billing_df['Sub'][y]][billing_df['Category 1'][y]]:
+                    dic[billing_df['Sub'][y]][billing_df['Category 1'][y]][billing_df['SOV Level 1'][y]] = None
+            else:
+                dic[billing_df['Sub'][y]][billing_df['Category 1'][y]] = {}
+                dic[billing_df['Sub'][y]][billing_df['Category 1'][y]][billing_df['SOV Level 1'][y]] = None
+
+
+    for y in range(activities_df.shape[0]):
+        if not pd.isna(activities_df['Category'][y]):
+            if activities_df['Category'][y] in dic[activities_df['Sub'][y]]:
+                if activities_df['Area'][y] not in dic[activities_df['Sub'][y]][activities_df['Category'][y]]:
+                    dic[activities_df['Sub'][y]][activities_df['Category'][y]][activities_df['Area'][y]] = None
+            else:
+                dic[activities_df['Sub'][y]][activities_df['Category'][y]] = {}
+                dic[activities_df['Sub'][y]][activities_df['Category'][y]][activities_df['Area'][y]] = None
+
+    return dic
+
+# pp.pprint(create_dictionary(billing_sched_df, activities_df, sub_list))
+
+
+workbook = xl.Workbook('Comparison.xlsx')
+worksheet = workbook.add_worksheet('Comparison Summary')
+
+# write headings
+
+worksheet.write(0,0, 'Subcontractor', heading_format(workbook))
+worksheet.write(0,1, 'Category', heading_format(workbook))
+worksheet.write(0,2, 'Building', heading_format(workbook))
+worksheet.write(0,3, 'Type', heading_format(workbook))
+worksheet.write(0,4, 'February', heading_format(workbook))
+worksheet.write(0,5, 'March', heading_format(workbook))
+worksheet.write(0,6, 'April', heading_format(workbook))
+worksheet.write(0,7, 'May', heading_format(workbook))
+worksheet.write(0,8, 'June', heading_format(workbook))
+worksheet.write(0,9, 'July', heading_format(workbook))
+worksheet.write(0,10, 'August', heading_format(workbook))
+worksheet.write(0,11, 'September', heading_format(workbook))
+worksheet.write(0,12, 'October', heading_format(workbook))
+
+# write data
+dic = create_dictionary(billing_sched_df, activities_df, sub_list)
+row = 1
+for subcontractor in dic:
+    worksheet.write(row, 0, subcontractor)
+    row += 1
+    for category in dic[subcontractor]:
+        worksheet.write(row, 1, category)
+        row += 1
+        for area in dic[subcontractor][category]:
+            worksheet.write(row, 2, area)
+            worksheet.write(row, 3, 'Billings')
+            worksheet.write(row+1, 3, 'Costs')
+            worksheet.write(row+2, 3, 'Activities')
+            row += 3
+            
+
+
+workbook.close()
