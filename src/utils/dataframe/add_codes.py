@@ -5,6 +5,7 @@ from datetime import date
 import pprint as pp
 from formats.standard_formats import *
 import math
+from dataframe_utils import array_differences
 
 cost_rprt_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Contract Forecasting Spreadsheet\Period 2 Export 02.02.23.xlsx')
 cost_rprt_df = pd.read_excel(cost_rprt_xls)
@@ -12,9 +13,9 @@ cost_rprt_df = pd.read_excel(cost_rprt_xls)
 sched_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Schedule\M007 Billing Cost Schedule - 01.25.23.xlsx')
 sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')
 
-def array_differences(array1, array2):
-    #return an array values which not shared between the two arrays
-    return [x for x in array1 if x not in array2] + [x for x in array2 if x not in array1]
+# def array_differences(array1, array2):
+#     #return an array values which not shared between the two arrays
+#     return [x for x in array1 if x not in array2] + [x for x in array2 if x not in array1]
 
 
 def add_codes_to_df(cost_report_df, schedule_df):
