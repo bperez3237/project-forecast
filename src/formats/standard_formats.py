@@ -46,3 +46,11 @@ def heading_format(workbook):
         'border': 2}
     )
     return format
+
+def percent_format(workbook,color):
+    format = workbook.add_format(
+        {'bg_color': color,
+        'border': 1,
+        'num_format': '0.00%'}
+    )
+    return format
