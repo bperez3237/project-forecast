@@ -1,5 +1,4 @@
-﻿import sys
-from xlsxwriters.formats.standard_formats import *
+﻿from xlsxwriters.formats.standard_formats import *
 import pandas as pd
 
 def write_cost_forecast(workbook, worksheet, updated_df):

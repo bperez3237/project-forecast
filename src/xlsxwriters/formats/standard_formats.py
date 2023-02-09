@@ -47,10 +47,40 @@ def heading_format(workbook):
     )
     return format
 
+def heading_month_format(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'white',
+        'bg_color': '#366092',
+        'center_across': True,
+        'text_wrap': True,
+        'valign': 'vcenter',
+        'border': 2,
+        'num_format': 'mmmm'}
+    )
+    return format
+
 def percent_format(workbook,color):
     format = workbook.add_format(
         {'bg_color': color,
         'border': 1,
         'num_format': '0.00%'}
+    )
+    return format
+
+
+def date_format(workbook,color):
+    format = workbook.add_format(
+        {'bg_color': color,
+        'border': 1,
+        'num_format': 'mm/dd/yyyy'}
+    )
+    return format
+
+def month_format(workbook,color):
+    format = workbook.add_format(
+        {'bg_color': color,
+        'border': 1,
+        'num_format': 'mmmm'}
     )
     return format
