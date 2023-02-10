@@ -2,6 +2,11 @@
 from utils.dataframe.sub_dictionary import sub_dictionary
 from utils.xlsx_formula_utils import work_billing_summary_formula, work_cost_summary_formula
 import pandas as pd
+from utils.date_utils import business_days, days_in_month
+from datetime import date, timedelta as td, datetime as dt
+
+# def 
+
 
 def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
     worksheet.write(0,0, 'Subcontractor', heading_format(workbook))
@@ -44,6 +49,23 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
                     worksheet.write(row+1,4+col_index,(work_cost_summary_formula(row, col_index, sub_row, index_y, index_z, subcontractor)), percent_format(workbook, '#ffffff'))
 
                 worksheet.write(row+2, 3, 'Activities')
-                # for col_index in range(9):
-                    # worksheet.write(row+2,4+col_index, )
+                for col_index in range(9):
+                    filtered_df = activities_df.loc[activities_df['Sub'] == subcontractor].loc[activities_df['Category'] == category].loc[activities_df['Area'] == area]
+                    months_array = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October']
+                    total_days_in_month = 0
+                    print(filtered_df)
+                    for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
+                        print((days_in_month(months_array[col_index], start, end)))
+                        total_days_in_month += (days_in_month(months_array[col_index], start, end))
+                    
+                    
+                    total_days = 0
+                    for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
+                        print((end - start))
+                        total_days += (end - start)
+                        
+                    return ''
+                    
+                    worksheet.write(row+2,4+col_index, total_days_in_month/total_days if total_days != 0 else 0, percent_format(workbook, '#ffffff'))
+                    # print(filtered_df.columns)
                 row += 3
