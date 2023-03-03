@@ -12,7 +12,7 @@ You will need to have Python 3 and the following packages installed on your syst
 You can install these packages using the following command:
 
 ```
-pip install pandas openpyxl
+pip install pandas xlsxwriter
 ```
 
 ### Installing

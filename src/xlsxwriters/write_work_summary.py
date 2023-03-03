@@ -30,14 +30,20 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
     sub_dic = sub_dictionary(billing_sched_df, activities_df, sub_list)
     
     row = 1
-    for index_x,subcontractor in enumerate(sub_dic):
+    for index_x, subcontractor in enumerate(sub_dic):
+        # print(subcontractor)
+        
         worksheet.write(row, 0, subcontractor)
         sub_row = row
         row += 1
         for index_y,category in enumerate(sub_dic[subcontractor]):
+            # print(category)
+            
             worksheet.write(row, 1, category)
             row += 1
             for index_z,area in enumerate(sub_dic[subcontractor][category]):
+                # print(area)
+                
                 worksheet.write(row, 2, area)
                 worksheet.write(row, 3, 'Billings')
                 #range 0-9 for jan-oct
@@ -53,19 +59,14 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
                     filtered_df = activities_df.loc[activities_df['Sub'] == subcontractor].loc[activities_df['Category'] == category].loc[activities_df['Area'] == area]
                     months_array = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October']
                     total_days_in_month = 0
-                    print(filtered_df)
                     for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
-                        print((days_in_month(months_array[col_index], start, end)))
-                        total_days_in_month += (days_in_month(months_array[col_index], start, end))
-                    
-                    
+                        total_days_in_month += days_in_month(col_index+1, start, end)
+                        
+                
                     total_days = 0
                     for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
-                        print((end - start))
-                        total_days += (end - start)
+                        total_days += (end - start).total_seconds() / 86400
                         
-                    return ''
-                    
                     worksheet.write(row+2,4+col_index, total_days_in_month/total_days if total_days != 0 else 0, percent_format(workbook, '#ffffff'))
-                    # print(filtered_df.columns)
+                
                 row += 3

@@ -6,7 +6,7 @@ from xlsxwriters.write_billing_forecast import write_billing_forecast
 from xlsxwriters.write_sub_cost_forecast import write_sub_cost_forecast
 from xlsxwriters.write_work_summary import write_work_summary
 from utils.dataframe.add_codes import add_codes_to_df
-# from data.import_data import cost_rprt_df, sched_df, billing_sched_df, sub_cost_df
+# from data.import_data import cost_rprt_df, cost_sched_df, billing_sched_df, sub_cost_df
 
 
 with open('cost_rprt_df.pickle', 'rb') as f:
@@ -34,9 +34,6 @@ write_sub_cost_forecast(workbook, sub_cost_forecast_worksheet, sub_cost_df)
 
 work_summary_worksheet = workbook.add_worksheet('Work Summary')
 write_work_summary(workbook, work_summary_worksheet, billing_sched_df, activities_df)
-
-
-
     
     
 workbook.close()
