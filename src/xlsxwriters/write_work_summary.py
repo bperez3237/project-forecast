@@ -56,7 +56,7 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
 
                 worksheet.write(row+2, 3, 'Activities')
                 for col_index in range(9):
-                    filtered_df = activities_df.loc[activities_df['Sub'] == subcontractor].loc[activities_df['Category'] == category].loc[activities_df['Area'] == area]
+                    filtered_df = activities_df.loc[activities_df['Sub'] == subcontractor].loc[activities_df['Category 1'] == category].loc[activities_df['Area'] == area]
                     months_array = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October']
                     total_days_in_month = 0
                     for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
