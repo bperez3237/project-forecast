@@ -20,7 +20,6 @@ def sub_dictionary(billing_df, activities_df, sub_list):
 
     for y in range(activities_df.shape[0]):
         if not pd.isna(activities_df['Category 1'][y]):
-            print(activities_df['Category 1'][y], activities_df['Sub'][y])
             if activities_df['Category 1'][y] in dic[activities_df['Sub'][y]]:
                 if activities_df['Area'][y] not in dic[activities_df['Sub'][y]][activities_df['Category 1'][y]]:
                     dic[activities_df['Sub'][y]][activities_df['Category 1'][y]][activities_df['Area'][y]] = None

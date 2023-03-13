@@ -19,7 +19,7 @@ def string_format(workbook,color,heading=False):
         )
     return format
 
-def number_format(workbook,color):
+def number_format(workbook,color='#FFFFFF'):
     format = workbook.add_format(
         {'bg_color': color,
         'border': 1,
@@ -27,7 +27,7 @@ def number_format(workbook,color):
     )
     return format
 
-def currency_format(workbook,color):
+def currency_format(workbook,color='#FFFFFF'):
     format = workbook.add_format(
         {'bg_color': color,
         'border': 1,

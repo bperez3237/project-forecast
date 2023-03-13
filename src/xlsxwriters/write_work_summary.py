@@ -65,6 +65,7 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
                 
                     total_days = 0
                     for start, end in zip(filtered_df['(*)Start'], filtered_df['(*)Finish']):
+                        #need to include finished activities too or else percentages will be off
                         total_days += (end - start).total_seconds() / 86400
                         
                     worksheet.write(row+2,4+col_index, total_days_in_month/total_days if total_days != 0 else 0, percent_format(workbook, '#ffffff'))
