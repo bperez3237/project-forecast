@@ -1,6 +1,6 @@
 ﻿import xlsxwriter as xl
 
-def string_format(workbook,color,heading=False):
+def string_format(workbook,color='#FFFFFF',heading=False):
     format = None
     if heading == True:
         format = workbook.add_format( 
@@ -84,3 +84,5 @@ def month_format(workbook,color):
         'num_format': 'mmmm'}
     )
     return format
+
+

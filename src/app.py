@@ -52,7 +52,3 @@ write_activities(workbook, activities_worksheet, activities_df)
     
 workbook.close()
 
-# write_workbook(cost_rprt_df, sched_df)
-
-# print(sub_cost_df)
-
