@@ -8,7 +8,6 @@ from xlsxwriters.write_work_summary import write_work_summary
 from xlsxwriters.write_forecast_summary import write_forecast_summary
 from xlsxwriters.write_activities import write_activities
 from utils.dataframe.add_codes import add_codes_to_df
-# from data.import_data import cost_rprt_df, cost_sched_df, billing_sched_df, sub_cost_df
 
 
 with open('cost_rprt_df.pickle', 'rb') as f:
