@@ -10,7 +10,7 @@ from utils.letter_utils import letter_to_index, index_to_letter
 def write_forecast_summary(workbook, worksheet):
     worksheet.write(1, 1, 'Cost', heading_format(workbook))
     
-    worksheet.write(3, 1, 'Labor', string_format(workbook, '#FFFFFF', '#FFFFFF'))
+    worksheet.write(3, 1, 'Labor', string_format(workbook, '#FFFFFF'))
     worksheet.write(4, 1, 'Equipment', string_format(workbook, '#FFFFFF'))
     worksheet.write(5, 1, 'Subcontractor', string_format(workbook, '#FFFFFF'))
     worksheet.write(6, 1, 'Consumable/Material', string_format(workbook, '#FFFFFF'))
