@@ -47,6 +47,16 @@ def heading_format(workbook):
     )
     return format
 
+def heading_format1(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'white',
+        'bg_color': '#366092',
+        }
+    )
+    return format
+
+
 def heading_month_format(workbook):
     format = workbook.add_format( 
         {'bold': True,
@@ -112,6 +122,16 @@ def heading_format2(workbook):
         'text_wrap': True,
         'valign': 'vcenter',
         'border': 2}
+    )
+    return format
+
+def heading_format3(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'black',
+        'bg_color': '#c3e3e2',
+        'center_across': True,
+        }
     )
     return format
 

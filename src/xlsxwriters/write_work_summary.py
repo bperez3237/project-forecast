@@ -71,6 +71,7 @@ def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):
                 
                 row += 3
                 
+    worksheet.conditional_format(f"E4:M{row}", {"type": "cell", "criteria": "=", "value": '#DIV/0!', "format": summary_text_light(workbook)})
     worksheet.conditional_format(f"E4:M{row}", {"type": "cell", "criteria": "=", "value": 0, "format": summary_text_light(workbook)})
     worksheet.conditional_format(f"E4:M{row}", {"type": "cell", "criteria": ">", "value": 0, "format": summary_text_red(workbook)})
     
