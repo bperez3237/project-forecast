@@ -85,4 +85,50 @@ def month_format(workbook,color):
     )
     return format
 
+def row_format1(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'white',
+        'bg_color': '#366092',
+        }
+    )
+    return format
 
+def row_format2(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'black',
+        'bg_color': '#D3D3D3',
+        }
+    )
+    return format
+
+def heading_format2(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'black',
+        'bg_color': 'white',
+        'center_across': True,
+        'text_wrap': True,
+        'valign': 'vcenter',
+        'border': 2}
+    )
+    return format
+
+
+def summary_text_light(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': '#D3D3D3',
+        }
+    )
+    return format
+
+def summary_text_red(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': 'black',
+        'bg_color': 'red',
+        }
+    )
+    return format

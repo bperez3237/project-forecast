@@ -80,3 +80,5 @@ def write_forecast_summary(workbook, worksheet):
     worksheet.write(23,2, f"=SUM({letterC}20:{letterC}23)", currency_format(workbook))
     worksheet.write(23,3 , f"=SUM({letterD}20:{letterD}23)", currency_format(workbook))
     worksheet.write(23, 4 , f"={letterC}24-{letterD}24", currency_format(workbook))
+    
+    worksheet.set_column(0,23,None)

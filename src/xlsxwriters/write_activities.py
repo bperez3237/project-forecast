@@ -1,4 +1,5 @@
 ﻿from xlsxwriters.formats.standard_formats import *
+from utils.dataframe.dataframe_utils import get_col_widths
 import pandas as pd
 
 def write_activities(workbook, worksheet, activities_df):
@@ -23,3 +24,7 @@ def write_activities(workbook, worksheet, activities_df):
                 worksheet.write(y+1, x, f"=OR(AND(P{xlsx_index}<=U$2,Q{xlsx_index}>V$2),AND(P{xlsx_index}>U$2,P{xlsx_index}<V$2))", string_format(workbook))
             else:
                 worksheet.write(y+1, x, activities_df.iloc[y,x] if not pd.isna(activities_df.iloc[y,x]) else '', string_format(workbook, '#FFFFFF') if (x < 15) else date_format(workbook, '#FFFFFF'))
+    
+    
+    for i, width in enumerate(get_col_widths(activities_df)):
+        worksheet.set_column(i-1, i-1, width)

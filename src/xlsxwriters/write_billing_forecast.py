@@ -1,4 +1,5 @@
 ﻿from xlsxwriters.formats.standard_formats import *
+from utils.dataframe.dataframe_utils import get_col_widths
 import pandas as pd
 
 def write_billing_forecast(workbook, worksheet, billing_df):
@@ -21,3 +22,6 @@ def write_billing_forecast(workbook, worksheet, billing_df):
                 worksheet.write(y+1, x, f"=P{y+2}>D{y+2}", string_format(workbook, '#FFFFFF'))
             else:
                 worksheet.write(y+1, x, billing_df.iloc[y,x] if not pd.isna(billing_df.iloc[y,x]) else 0, currency_format(workbook, '#FFFFFF'))
+    
+    for i, width in enumerate(get_col_widths(billing_df)):
+        worksheet.set_column(i-1, i-1, width)

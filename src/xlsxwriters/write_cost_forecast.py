@@ -1,4 +1,5 @@
 ﻿from xlsxwriters.formats.standard_formats import *
+from utils.dataframe.dataframe_utils import get_col_widths
 import pandas as pd
 
 def write_cost_forecast(workbook, worksheet, updated_df):
@@ -21,3 +22,6 @@ def write_cost_forecast(workbook, worksheet, updated_df):
                 worksheet.write(y+1, x, f"=IF(C{y+2}=0,0,N{y+2}/C{y+2})", percent_format(workbook, '#FFFFFF'))
             else:
                 worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF') if (x<2 or (x>=15 and x<18)) else currency_format(workbook, '#FFFFFF'))
+                
+    for i, width in enumerate(get_col_widths(updated_df)):
+        worksheet.set_column(i-1, i-1, width)

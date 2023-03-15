@@ -36,7 +36,7 @@ def last_day_of_month(month, year):
     
     
 
-def days_in_month(month, start_date, end_date):
+def days_in_month(month, start_date, end_date) -> int:
     '''return the number of days between start date and end date that fall in the month'''
     start_month = start_date.month
     end_month = end_date.month
@@ -47,18 +47,19 @@ def days_in_month(month, start_date, end_date):
     
     if month < start_month or month > end_month:
         return 0
-    
     elif month == start_month and month == end_month:
-        return (end_date - start_date).total_seconds() / 86400
+        return int((end_date - start_date).total_seconds() / 86400)
     
     elif month == start_month and month != end_month:
-        return (last_day_of_month(month, start_date.year) - dt.fromtimestamp(start_date.timestamp()).date()).total_seconds() / 86400
+        return int((last_day_of_month(month, start_date.year) - dt.fromtimestamp(start_date.timestamp()).date()).total_seconds() / 86400)
     
     elif month != start_month and month == end_month:
         return int(end_date.strftime('%d'))
     
     elif month != start_month and month != end_month:
         return last_day_of_month(month, start_date.year).day
+    else:
+        return 0
     
 
 '''
