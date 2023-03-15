@@ -12,3 +12,5 @@ def work_cost_summary_formula(row, col_index, sub_row, index_2, index_3, sub):
         #UPDATE SUB COST FORECAST TO INCLUDE AREA IN THE RIGHT FORMAT
         return (f"=SUMIFS('Sub Cost Forecast'!{add_to_letter('G', col_index)}:{add_to_letter('G', col_index)},'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R,$C{row+1})/SUMIFS('Sub Cost Forecast'!$D:$D,'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R, $C{row+1})")
 
+def wrap_catch_error(formula):
+    return (f'=IFERROR({formula[1:]},0)')

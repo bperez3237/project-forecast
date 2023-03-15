@@ -8,7 +8,7 @@ from utils.letter_utils import letter_to_index, index_to_letter
 
 
 def write_forecast_summary(workbook, worksheet):
-    for col in range(1,11):
+    for col in range(1,12):
         worksheet.write(1, col, 'Cost' if col==1 else '', heading_format1(workbook))
     
     worksheet.write(2, 1, '', heading_format3(workbook))
@@ -20,7 +20,7 @@ def write_forecast_summary(workbook, worksheet):
     worksheet.write(7, 1, 'Overhead', string_format(workbook, '#FFFFFF'))
     worksheet.write(8, 1, 'Total', string_format(workbook, '#FFFFFF'))
     
-    for col in range(1,11):
+    for col in range(1,12):
         worksheet.write(10, col, 'Billing' if col==1 else '', heading_format1(workbook))
     
     worksheet.write(11, 1, '', heading_format3(workbook))
@@ -41,18 +41,18 @@ def write_forecast_summary(workbook, worksheet):
     
     
     column = 2
-    for month in range(2, 11):
+    for month in range(2, 12):
         letter1 = index_to_letter(column+2).upper()
         letter2 = index_to_letter(column+4).upper()
         letter3 = index_to_letter(column+3).upper()
         letter4 = index_to_letter(column).upper()
-        cost_text = lambda x: f"=SUMIF('Cost Forecast'!P:P," + f'"{x}"'+ f",'Cost Forecast'!{letter1}:{letter1})"
-        worksheet.write(2, column, dt(2019, month, 1).strftime('%B'), heading_format3(workbook))
-        worksheet.write(3, column, cost_text("Labor") , currency_format(workbook))
-        worksheet.write(4, column, cost_text("Equipment") , currency_format(workbook))
+        cost_text = lambda x: f"=SUMIF('Cost Forecast'!Q:Q,{x},'Cost Forecast'!{letter1}:{letter1})"
+        worksheet.write(2, column, dt(2019, month+1, 1).strftime('%B'), heading_format3(workbook))
+        worksheet.write(3, column, cost_text("B4") , currency_format(workbook))
+        worksheet.write(4, column, cost_text("B5") , currency_format(workbook))
         worksheet.write(5, column, f"=SUM('Sub Cost Forecast'!{letter2}:{letter2})", currency_format(workbook))
-        worksheet.write(6, column, cost_text("Material") , currency_format(workbook))
-        worksheet.write(7, column, cost_text("overhead") , currency_format(workbook))
+        worksheet.write(6, column, cost_text('\"Material\"') , currency_format(workbook))
+        worksheet.write(7, column, cost_text("B8") , currency_format(workbook))
         worksheet.write(8,column, f"=SUM({letter4}4:{letter4}8)", currency_format(workbook))
         
         worksheet.write(11, column, dt(2019, month, 1).strftime('%B'), heading_format3(workbook))
@@ -78,8 +78,8 @@ def write_forecast_summary(workbook, worksheet):
     worksheet.write(21,3, 81_147_688.19, currency_format(workbook))
     worksheet.write(21,4, f"={letterC}22-{letterD}22", currency_format(workbook))
 
-    worksheet.write(22,2, "=SUM(C9:K9)", currency_format(workbook))
-    worksheet.write(22,3, '=SUM(C13:K13)', currency_format(workbook))    
+    worksheet.write(22,2, "=SUM(C9:L9)", currency_format(workbook))
+    worksheet.write(22,3, '=SUM(C13:L13)', currency_format(workbook))    
     worksheet.write(22,4, f"={letterC}23-{letterD}23", currency_format(workbook))
 
     worksheet.write(23,2, f"=SUM({letterC}20:{letterC}23)", currency_format(workbook))

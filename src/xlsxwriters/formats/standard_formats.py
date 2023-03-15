@@ -152,3 +152,12 @@ def summary_text_red(workbook):
         }
     )
     return format
+
+def summary_text_light_with_white_bg(workbook):
+    format = workbook.add_format( 
+        {'bold': True,
+        'font_color': '#D3D3D3',
+        'bg_color': 'white',
+        }
+    )
+    return format
