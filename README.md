@@ -29,10 +29,15 @@ To use Project Forecast, you must have three different tables saved in xlsx file
 Then, run the following command in your terminal to cache the data into pickle files:
 
 ```
-python src/data/import_data.py
+python ./src/data/import_data.py
 ```
-The rest of the writing functions are in progress...
 
+To write the app using the last imported data, run:
+```
+python ./src/app.py
+```
+
+The new xlsx file will be saved in the current project directory.
 
 ## Contributing
 Any contributions you make are greatly appreciated.
