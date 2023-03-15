@@ -30,4 +30,9 @@ def add_codes_to_df(cost_report_df: pd.DataFrame, schedule_df: pd.DataFrame) -> 
 
     return updated_report_df.sort_values(by=['Code'])
 
-
+def update_codes(cost_report_df: pd.DataFrame, cost_sched_df: pd.DataFrame) -> pd.DataFrame:
+    for y in range(cost_sched_df.shape[0]):
+        cost_sched_df.iloc[y,2] = cost_report_df[cost_report_df['Phase'] == cost_sched_df.iloc[y,0]]['Projected Cost Forecast'].sum()
+        cost_sched_df.iloc[y,3] = cost_report_df[cost_report_df['Phase'] == cost_sched_df.iloc[y,0]]['Actual Cost'].sum()
+        
+    return cost_sched_df

@@ -7,7 +7,7 @@ from xlsxwriters.write_sub_cost_forecast import write_sub_cost_forecast
 from xlsxwriters.write_work_summary import write_work_summary
 from xlsxwriters.write_forecast_summary import write_forecast_summary
 from xlsxwriters.write_activities import write_activities
-from utils.dataframe.add_codes import add_codes_to_df
+from utils.dataframe.update_codes import add_codes_to_df, update_codes
 
 
 with open('cost_rprt_df.pickle', 'rb') as f:
@@ -22,6 +22,7 @@ with open('activities_df.pickle', 'rb') as f:
     activities_df = pickle.load(f)
 
 updated_cost_df = add_codes_to_df(cost_rprt_df, cost_sched_df)
+updated_cost_df = update_codes(cost_rprt_df, updated_cost_df)
 
 workbook = xl.Workbook('Updated Schedule.xlsx')
 cost_forecast_worksheet = workbook.add_worksheet('Cost Forecast')
