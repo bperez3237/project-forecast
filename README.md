@@ -36,7 +36,17 @@ Then, run the following command in your terminal to cache the data into pickle f
 python src/data/import_data.py
 ```
 
-Once the data files are populated. Comment out the writer files you want to use from src/app.py and then run the script.
+python ./src/data/import_data.py
+
+```
+
+To write the app using the last imported data, run:
+```
+
+python ./src/app.py
+
+```
+
 
 ## Contributing
 
@@ -47,3 +57,4 @@ Any contributions you make are greatly appreciated.
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
+```
