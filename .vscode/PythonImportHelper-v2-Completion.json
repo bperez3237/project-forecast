@@ -1,0 +1,1092 @@
+[
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "xlsxwriter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xlsxwriter",
+        "description": "xlsxwriter",
+        "detail": "xlsxwriter",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pprint",
+        "description": "pprint",
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "formats.standard_formats",
+        "description": "formats.standard_formats",
+        "isExtraImport": true,
+        "detail": "formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "formats.standard_formats",
+        "description": "formats.standard_formats",
+        "isExtraImport": true,
+        "detail": "formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "last_day_of_month",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "business_days",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "days_in_month",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "business_days",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "days_in_month",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "business_days",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "days_in_month",
+        "importPath": "utils.date_utils",
+        "description": "utils.date_utils",
+        "isExtraImport": true,
+        "detail": "utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_col_widths",
+        "importPath": "utils.dataframe.dataframe_utils",
+        "description": "utils.dataframe.dataframe_utils",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_col_widths",
+        "importPath": "utils.dataframe.dataframe_utils",
+        "description": "utils.dataframe.dataframe_utils",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_col_widths",
+        "importPath": "utils.dataframe.dataframe_utils",
+        "description": "utils.dataframe.dataframe_utils",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_col_widths",
+        "importPath": "utils.dataframe.dataframe_utils",
+        "description": "utils.dataframe.dataframe_utils",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sub_dictionary",
+        "importPath": "utils.dataframe.sub_dictionary",
+        "description": "utils.dataframe.sub_dictionary",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.sub_dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "sub_dictionary",
+        "importPath": "utils.dataframe.sub_dictionary",
+        "description": "utils.dataframe.sub_dictionary",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.sub_dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "work_billing_summary_formula",
+        "importPath": "utils.xlsx_formula_utils",
+        "description": "utils.xlsx_formula_utils",
+        "isExtraImport": true,
+        "detail": "utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "work_cost_summary_formula",
+        "importPath": "utils.xlsx_formula_utils",
+        "description": "utils.xlsx_formula_utils",
+        "isExtraImport": true,
+        "detail": "utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "work_billing_summary_formula",
+        "importPath": "utils.xlsx_formula_utils",
+        "description": "utils.xlsx_formula_utils",
+        "isExtraImport": true,
+        "detail": "utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "work_cost_summary_formula",
+        "importPath": "utils.xlsx_formula_utils",
+        "description": "utils.xlsx_formula_utils",
+        "isExtraImport": true,
+        "detail": "utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_catch_error",
+        "importPath": "utils.xlsx_formula_utils",
+        "description": "utils.xlsx_formula_utils",
+        "isExtraImport": true,
+        "detail": "utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "letter_to_index",
+        "importPath": "utils.letter_utils",
+        "description": "utils.letter_utils",
+        "isExtraImport": true,
+        "detail": "utils.letter_utils",
+        "documentation": {}
+    },
+    {
+        "label": "index_to_letter",
+        "importPath": "utils.letter_utils",
+        "description": "utils.letter_utils",
+        "isExtraImport": true,
+        "detail": "utils.letter_utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_cost_forecast",
+        "importPath": "xlsxwriters.write_cost_forecast",
+        "description": "xlsxwriters.write_cost_forecast",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_cost_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_billing_forecast",
+        "importPath": "xlsxwriters.write_billing_forecast",
+        "description": "xlsxwriters.write_billing_forecast",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_billing_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_sub_cost_forecast",
+        "importPath": "xlsxwriters.write_sub_cost_forecast",
+        "description": "xlsxwriters.write_sub_cost_forecast",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_sub_cost_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_work_summary",
+        "importPath": "xlsxwriters.write_work_summary",
+        "description": "xlsxwriters.write_work_summary",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_work_summary",
+        "documentation": {}
+    },
+    {
+        "label": "write_forecast_summary",
+        "importPath": "xlsxwriters.write_forecast_summary",
+        "description": "xlsxwriters.write_forecast_summary",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_forecast_summary",
+        "documentation": {}
+    },
+    {
+        "label": "write_activities",
+        "importPath": "xlsxwriters.write_activities",
+        "description": "xlsxwriters.write_activities",
+        "isExtraImport": true,
+        "detail": "xlsxwriters.write_activities",
+        "documentation": {}
+    },
+    {
+        "label": "add_codes_to_df",
+        "importPath": "utils.dataframe.update_codes",
+        "description": "utils.dataframe.update_codes",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.update_codes",
+        "documentation": {}
+    },
+    {
+        "label": "update_codes",
+        "importPath": "utils.dataframe.update_codes",
+        "description": "utils.dataframe.update_codes",
+        "isExtraImport": true,
+        "detail": "utils.dataframe.update_codes",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_xls",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "cost_rprt_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Contract Forecasting Spreadsheet\\Period 3 Export 03.15.23.xlsx')\ncost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 03.14.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nbilling_sched_df = pd.read_excel(sched_xls, sheet_name='Billing Forecast')\nsub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_df",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "cost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 03.14.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nbilling_sched_df = pd.read_excel(sched_xls, sheet_name='Billing Forecast')\nsub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "sched_xls",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "sched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 03.14.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nbilling_sched_df = pd.read_excel(sched_xls, sheet_name='Billing Forecast')\nsub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "cost_sched_df",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "cost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nbilling_sched_df = pd.read_excel(sched_xls, sheet_name='Billing Forecast')\nsub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:\n    pickle.dump(cost_sched_df, f)",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "billing_sched_df",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "billing_sched_df = pd.read_excel(sched_xls, sheet_name='Billing Forecast')\nsub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:\n    pickle.dump(cost_sched_df, f)\nwith open('billing_sched_df.pickle', 'wb') as f:",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "sub_cost_df",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "sub_cost_df = pd.read_excel(sched_xls, sheet_name='Sub Cost Forecast')\nactivities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:\n    pickle.dump(cost_sched_df, f)\nwith open('billing_sched_df.pickle', 'wb') as f:\n    pickle.dump(billing_sched_df, f)",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "activities_xls",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "activities_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\27 - PERSONAL FOLDERS\\Brian Perez\\Coney Island\\03 - Schedule\\All Activities February 2023.xlsx')\nactivities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:\n    pickle.dump(cost_sched_df, f)\nwith open('billing_sched_df.pickle', 'wb') as f:\n    pickle.dump(billing_sched_df, f)\nwith open('sub_cost_df.pickle', 'wb') as f:",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "activities_df",
+        "kind": 5,
+        "importPath": "src.data.import_data",
+        "description": "src.data.import_data",
+        "peekOfCode": "activities_df = pd.read_excel(activities_xls, sheet_name='TASK')\nprint('start saving')\nwith open('cost_rprt_df.pickle', 'wb') as f:\n    pickle.dump(cost_rprt_df, f)\nwith open('cost_sched_df.pickle', 'wb') as f:\n    pickle.dump(cost_sched_df, f)\nwith open('billing_sched_df.pickle', 'wb') as f:\n    pickle.dump(billing_sched_df, f)\nwith open('sub_cost_df.pickle', 'wb') as f:\n    pickle.dump(sub_cost_df, f)",
+        "detail": "src.data.import_data",
+        "documentation": {}
+    },
+    {
+        "label": "array_differences",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.dataframe_utils",
+        "description": "src.utils.dataframe.dataframe_utils",
+        "peekOfCode": "def array_differences(array1, array2):\n    #return an array values which not shared between the two arrays\n    return [x for x in array1 if x not in array2] + [x for x in array2 if x not in array1]\ndef get_col_widths(dataframe):\n    # First we find the maximum length of the index column   \n    idx_max = max([len(str(s)) for s in dataframe.index.values] + [len(str(dataframe.index.name))])\n    # Then, we concatenate this to the max of the lengths of column name and its values for each column, left to right\n    return [idx_max] + [max([len(str(s)) for s in dataframe[col].values] + [len(col)]) for col in dataframe.columns]",
+        "detail": "src.utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_col_widths",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.dataframe_utils",
+        "description": "src.utils.dataframe.dataframe_utils",
+        "peekOfCode": "def get_col_widths(dataframe):\n    # First we find the maximum length of the index column   \n    idx_max = max([len(str(s)) for s in dataframe.index.values] + [len(str(dataframe.index.name))])\n    # Then, we concatenate this to the max of the lengths of column name and its values for each column, left to right\n    return [idx_max] + [max([len(str(s)) for s in dataframe[col].values] + [len(col)]) for col in dataframe.columns]",
+        "detail": "src.utils.dataframe.dataframe_utils",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_xls",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.monthly_cost_update",
+        "description": "src.utils.dataframe.monthly_cost_update",
+        "peekOfCode": "cost_rprt_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Contract Forecasting Spreadsheet\\Period 2 Export 02.02.23.xlsx')\ncost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nprint(cost_sched_df.columns)\n# for x in range(cost_sched_df)",
+        "detail": "src.utils.dataframe.monthly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_df",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.monthly_cost_update",
+        "description": "src.utils.dataframe.monthly_cost_update",
+        "peekOfCode": "cost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nprint(cost_sched_df.columns)\n# for x in range(cost_sched_df)",
+        "detail": "src.utils.dataframe.monthly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "sched_xls",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.monthly_cost_update",
+        "description": "src.utils.dataframe.monthly_cost_update",
+        "peekOfCode": "sched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nprint(cost_sched_df.columns)\n# for x in range(cost_sched_df)",
+        "detail": "src.utils.dataframe.monthly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "cost_sched_df",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.monthly_cost_update",
+        "description": "src.utils.dataframe.monthly_cost_update",
+        "peekOfCode": "cost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nprint(cost_sched_df.columns)\n# for x in range(cost_sched_df)",
+        "detail": "src.utils.dataframe.monthly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "sub_dictionary",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.sub_dictionary",
+        "description": "src.utils.dataframe.sub_dictionary",
+        "peekOfCode": "def sub_dictionary(billing_df, activities_df, sub_list):\n    dic = {sub: {} for sub in sub_list}\n    for y in range(billing_df.shape[0]):\n        if not pd.isna(billing_df['Category 1'][y]):\n            if billing_df['Category 1'][y] in dic[billing_df['Sub'][y]]:\n                if billing_df['SOV Level 1'][y] not in dic[billing_df['Sub'][y]][billing_df['Category 1'][y]]:\n                    dic[billing_df['Sub'][y]][billing_df['Category 1'][y]][billing_df['SOV Level 1'][y]] = None\n            else:\n                dic[billing_df['Sub'][y]][billing_df['Category 1'][y]] = {}\n                dic[billing_df['Sub'][y]][billing_df['Category 1'][y]][billing_df['SOV Level 1'][y]] = None",
+        "detail": "src.utils.dataframe.sub_dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "array_differences",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.update_codes",
+        "description": "src.utils.dataframe.update_codes",
+        "peekOfCode": "def array_differences(array1, array2) -> list:\n    #return an array values which not shared between the two arrays\n    return [x for x in array1 if x not in array2] + [x for x in array2 if x not in array1]\ndef add_codes_to_df(cost_report_df: pd.DataFrame, schedule_df: pd.DataFrame) -> pd.DataFrame:\n    missing_codes = array_differences(schedule_df['Code'].unique(), cost_report_df['Phase'].unique())\n    updated_report_df = schedule_df\n    for code in missing_codes:\n        code_data = cost_report_df[cost_report_df['Phase'] == code]\n        code_dict = {key: 0 for key in schedule_df.columns}\n        code_dict.update({",
+        "detail": "src.utils.dataframe.update_codes",
+        "documentation": {}
+    },
+    {
+        "label": "add_codes_to_df",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.update_codes",
+        "description": "src.utils.dataframe.update_codes",
+        "peekOfCode": "def add_codes_to_df(cost_report_df: pd.DataFrame, schedule_df: pd.DataFrame) -> pd.DataFrame:\n    missing_codes = array_differences(schedule_df['Code'].unique(), cost_report_df['Phase'].unique())\n    updated_report_df = schedule_df\n    for code in missing_codes:\n        code_data = cost_report_df[cost_report_df['Phase'] == code]\n        code_dict = {key: 0 for key in schedule_df.columns}\n        code_dict.update({\n            'Code':code, \n            'Name': code_data['Name'].values[0],\n            'Projected Forecast': code_data['Projected Cost Forecast'].sum(),",
+        "detail": "src.utils.dataframe.update_codes",
+        "documentation": {}
+    },
+    {
+        "label": "update_codes",
+        "kind": 2,
+        "importPath": "src.utils.dataframe.update_codes",
+        "description": "src.utils.dataframe.update_codes",
+        "peekOfCode": "def update_codes(cost_report_df: pd.DataFrame, cost_sched_df: pd.DataFrame) -> pd.DataFrame:\n    for y in range(cost_sched_df.shape[0]):\n        cost_sched_df.iloc[y,2] = cost_report_df[cost_report_df['Phase'] == cost_sched_df.iloc[y,0]]['Projected Cost Forecast'].sum()\n        cost_sched_df.iloc[y,3] = cost_report_df[cost_report_df['Phase'] == cost_sched_df.iloc[y,0]]['Actual Cost'].sum()\n    return cost_sched_df",
+        "detail": "src.utils.dataframe.update_codes",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_xls",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "cost_rprt_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Contract Forecasting Spreadsheet\\Period 2 Export 02.02.23.xlsx')\ncost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nspent_codes = []\noverspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "cost_rprt_df",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "cost_rprt_df = pd.read_excel(cost_rprt_xls)\nsched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nspent_codes = []\noverspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:\n        if spent < cost_sched_df['January'][y]:",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "sched_xls",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "sched_xls = pd.ExcelFile(r'C:\\Users\\bperez\\Iovino Enterprises, LLC\\M007-NYCHA-Coney Island Sites - Documents\\General\\08 - BUDGET & COST\\Cost Codes\\Schedule\\M007 Billing Cost Schedule - 01.25.23.xlsx')\ncost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nspent_codes = []\noverspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:\n        if spent < cost_sched_df['January'][y]:\n            spent_codes.append({cost_sched_df['Code'][y] : spent})",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "cost_sched_df",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "cost_sched_df = pd.read_excel(sched_xls, sheet_name='Cost Forecast')\nspent_codes = []\noverspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:\n        if spent < cost_sched_df['January'][y]:\n            spent_codes.append({cost_sched_df['Code'][y] : spent})\n            cost_sched_df.iloc[y, 4] -= spent",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "spent_codes",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "spent_codes = []\noverspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:\n        if spent < cost_sched_df['January'][y]:\n            spent_codes.append({cost_sched_df['Code'][y] : spent})\n            cost_sched_df.iloc[y, 4] -= spent\n            cost_sched_df.iloc[y, 3] = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum()",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "overspent_codes",
+        "kind": 5,
+        "importPath": "src.utils.dataframe.weekly_cost_update",
+        "description": "src.utils.dataframe.weekly_cost_update",
+        "peekOfCode": "overspent_codes = []\nfor y in range(cost_sched_df.shape[0]):\n    # initial value is new spent\n    spent = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum() - cost_sched_df['Spent to Date'][y]\n    if spent != 0 and abs(spent) > 0.01:\n        if spent < cost_sched_df['January'][y]:\n            spent_codes.append({cost_sched_df['Code'][y] : spent})\n            cost_sched_df.iloc[y, 4] -= spent\n            cost_sched_df.iloc[y, 3] = cost_rprt_df[cost_rprt_df['Phase'] == cost_sched_df['Code'][y]]['Actual Cost'].sum()\n        else:",
+        "detail": "src.utils.dataframe.weekly_cost_update",
+        "documentation": {}
+    },
+    {
+        "label": "TestLastDay",
+        "kind": 6,
+        "importPath": "src.utils.tests.test_date_utils",
+        "description": "src.utils.tests.test_date_utils",
+        "peekOfCode": "class TestLastDay(unittest.TestCase):\n    def test_standard_month(self):\n        result = last_day_of_month(pd.Timestamp('2021-01-01'))\n        self.assertEqual(result, pd.Timestamp('2021-01-31'))\n    def test_leap_year(self):\n        result = last_day_of_month(pd.Timestamp('2020-02-01'))\n        self.assertEqual(result, pd.Timestamp('2020-02-29'))\n    def test_end_of_month(self):\n        result = last_day_of_month(pd.Timestamp('2021-01-31'))\n        self.assertEqual(result, pd.Timestamp('2021-01-31'))",
+        "detail": "src.utils.tests.test_date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestBusinessDays",
+        "kind": 6,
+        "importPath": "src.utils.tests.test_date_utils",
+        "description": "src.utils.tests.test_date_utils",
+        "peekOfCode": "class TestBusinessDays(unittest.TestCase):\n    def test_both_weekdays(self):\n        result = business_days(pd.Timestamp('2021-01-01'), pd.Timestamp('2021-01-05'))\n        self.assertEqual(result, 4)\n    def test_both_weekends(self):\n        result = business_days(pd.Timestamp('2021-01-02'), pd.Timestamp('2021-01-03'))\n        self.assertEqual(result, 0)\n    def test_start_weekend(self):\n        result = business_days(pd.Timestamp('2021-01-02'), pd.Timestamp('2021-01-06'))\n        self.assertEqual(result, 3)",
+        "detail": "src.utils.tests.test_date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestDaysInMonth",
+        "kind": 6,
+        "importPath": "src.utils.tests.test_date_utils",
+        "description": "src.utils.tests.test_date_utils",
+        "peekOfCode": "class TestDaysInMonth(unittest.TestCase):\n    def test_both_in_month(self):\n        result = days_in_month(1, pd.Timestamp('2021-01-08'), pd.Timestamp('2021-01-30'))\n        self.assertEqual(result, 22)\n    def test_start_in_month(self):\n        result = days_in_month(1, pd.Timestamp('2021-01-08'), pd.Timestamp('2021-02-21'))\n        self.assertEqual(result, 23)\n    def test_end_in_month(self):\n        result = days_in_month(1, pd.Timestamp('2020-12-01'), pd.Timestamp('2021-01-19'))\n        self.assertEqual(result, 19)",
+        "detail": "src.utils.tests.test_date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "business_days",
+        "kind": 2,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "def business_days(day_1, day_2):\n    \"\"\"Return the number of business days between two dates\"\"\"\n    # If day_1 is later than day_2, switch them\n    if day_1 > day_2:\n        day_1, day_2 = day_2, day_1\n    # Count the number of days from day_1 to day_2\n    days = (day_2 - day_1).days + 1\n    # Count the number of weekends between day_1 and day_2\n    weekends = days // 7 * 2\n    # If day_2 is a Saturday, then there is one more weekend",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "last_day_of_month",
+        "kind": 2,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "def last_day_of_month(month, year):\n    \"\"\"Return the last day of the month\"\"\"\n    if month == 12:\n        return date(year, month, 31)\n    else:\n        return date(year, month + 1, 1) - td(days=1)\ndef days_in_month(month, start_date, end_date) -> int:\n    '''return the number of days between start date and end date that fall in the month'''\n    start_month = start_date.month\n    end_month = end_date.month",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "days_in_month",
+        "kind": 2,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "def days_in_month(month, start_date, end_date) -> int:\n    '''return the number of days between start date and end date that fall in the month'''\n    start_month = start_date.month\n    end_month = end_date.month\n    # if start_date > end_date:\n    #     start_date, end_date = end_date, start_date\n    if month < start_month or month > end_month:\n        return 0\n    elif month == start_month and month == end_month:\n        return int((end_date - start_date).total_seconds() / 86400)",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "strt1",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "strt1 = pd.Timestamp('2019-02-01')\nend1 = pd.Timestamp('2019-02-23')\nstrt2 = pd.Timestamp('2019-01-13')\nend2 = pd.Timestamp('2019-02-03')\nstrt3 = pd.Timestamp('2019-01-11')\nend3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "end1",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "end1 = pd.Timestamp('2019-02-23')\nstrt2 = pd.Timestamp('2019-01-13')\nend2 = pd.Timestamp('2019-02-03')\nstrt3 = pd.Timestamp('2019-01-11')\nend3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "strt2",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "strt2 = pd.Timestamp('2019-01-13')\nend2 = pd.Timestamp('2019-02-03')\nstrt3 = pd.Timestamp('2019-01-11')\nend3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "end2",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "end2 = pd.Timestamp('2019-02-03')\nstrt3 = pd.Timestamp('2019-01-11')\nend3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "strt3",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "strt3 = pd.Timestamp('2019-01-11')\nend3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "end3",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "end3 = pd.Timestamp('2019-03-23')\nstrt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')\nprint(days_in_month(2, strt1, end1), f\"should equal 22\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "strt4",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "strt4 = pd.Timestamp('2019-01-21')\nend4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')\nprint(days_in_month(2, strt1, end1), f\"should equal 22\")\nprint(days_in_month(1, strt3, strt4), f\"should equal 10\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "end4",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "end4 = pd.Timestamp('2019-03-23')\nstrt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')\nprint(days_in_month(2, strt1, end1), f\"should equal 22\")\nprint(days_in_month(1, strt3, strt4), f\"should equal 10\")\nprint(\"## case 3\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "strt5",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "strt5 = pd.Timestamp('2019-01-19')\nend5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')\nprint(days_in_month(2, strt1, end1), f\"should equal 22\")\nprint(days_in_month(1, strt3, strt4), f\"should equal 10\")\nprint(\"## case 3\")\nprint(days_in_month(2, end2, end3), \"should equal 26\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "end5",
+        "kind": 5,
+        "importPath": "src.utils.date_utils",
+        "description": "src.utils.date_utils",
+        "peekOfCode": "end5 = pd.Timestamp('2019-03-23')\nprint('## case 1')\nprint(days_in_month(1, strt1, end1), f\"should equal 0\")\nprint(days_in_month(3, strt1, end1), f\"should equal 0\")\nprint('## case 2')\nprint(days_in_month(2, strt1, end1), f\"should equal 22\")\nprint(days_in_month(1, strt3, strt4), f\"should equal 10\")\nprint(\"## case 3\")\nprint(days_in_month(2, end2, end3), \"should equal 26\")\nprint(\"## case 4\")",
+        "detail": "src.utils.date_utils",
+        "documentation": {}
+    },
+    {
+        "label": "letter_to_index",
+        "kind": 2,
+        "importPath": "src.utils.letter_utils",
+        "description": "src.utils.letter_utils",
+        "peekOfCode": "def letter_to_index(letter):\n    letter = letter.lower()\n    return ord(letter) - ord('a')\ndef index_to_letter(index):\n    return chr(index + ord('a'))",
+        "detail": "src.utils.letter_utils",
+        "documentation": {}
+    },
+    {
+        "label": "index_to_letter",
+        "kind": 2,
+        "importPath": "src.utils.letter_utils",
+        "description": "src.utils.letter_utils",
+        "peekOfCode": "def index_to_letter(index):\n    return chr(index + ord('a'))",
+        "detail": "src.utils.letter_utils",
+        "documentation": {}
+    },
+    {
+        "label": "add_to_letter",
+        "kind": 2,
+        "importPath": "src.utils.string_utils",
+        "description": "src.utils.string_utils",
+        "peekOfCode": "def add_to_letter(letter, num):\n    \"\"\"Add a number to a letter to get the next letter in the alphabet.\n    Args:\n        letter (str): The letter to add to.\n        num (int): The number to add to the letter.\n    Returns:\n        str: The next letter in the alphabet.\n    \"\"\"\n    return chr(ord(letter) + num)",
+        "detail": "src.utils.string_utils",
+        "documentation": {}
+    },
+    {
+        "label": "work_billing_summary_formula",
+        "kind": 2,
+        "importPath": "src.utils.xlsx_formula_utils",
+        "description": "src.utils.xlsx_formula_utils",
+        "peekOfCode": "def work_billing_summary_formula(row, col_index, sub_row, index_2, index_3):\n    return (f\"=SUMIFS('Billing Forecast'!{add_to_letter('F', col_index)}:{add_to_letter('F', col_index)},'Billing Forecast'!$T:$T,$A${sub_row+1},'Billing Forecast'!$U:$U,$B${row-index_3*3},'Billing Forecast'!$Q:$Q,$C{row+1})/SUMIFS('Billing Forecast'!$D:$D,'Billing Forecast'!$T:$T,$A${sub_row+1},'Billing Forecast'!$U:$U,$B${row-index_3*3},'Billing Forecast'!$Q:$Q, $C{row+1})\")\ndef work_cost_summary_formula(row, col_index, sub_row, index_2, index_3, sub):\n    if sub == 'MLJ':\n        # MISSING AREA/SOV1 COLUMN BACK INTO MLJ COST FORECAST \n        return (f\"=SUMIFS('Cost Forecast'!{add_to_letter('F', col_index)}:{add_to_letter('F', col_index)},'Cost Forecast'!$R:$R,$B${row-index_3*3},'Cost Forecast'!$Q:$Q,$C{row+1})/SUMIFS('Cost Forecast'!$D:$D,'Cost Forecast'!$R:$R,$B${row-index_3*3},'Cost Forecast'!$Q:$Q, $C{row+1})\")\n    else:\n        #NEED TO ADD CATEGORY COLUMN TO SUB COST FORECAST IMPORT DF\n        #UPDATE SUB COST FORECAST TO INCLUDE AREA IN THE RIGHT FORMAT\n        return (f\"=SUMIFS('Sub Cost Forecast'!{add_to_letter('G', col_index)}:{add_to_letter('G', col_index)},'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R,$C{row+1})/SUMIFS('Sub Cost Forecast'!$D:$D,'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R, $C{row+1})\")",
+        "detail": "src.utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "work_cost_summary_formula",
+        "kind": 2,
+        "importPath": "src.utils.xlsx_formula_utils",
+        "description": "src.utils.xlsx_formula_utils",
+        "peekOfCode": "def work_cost_summary_formula(row, col_index, sub_row, index_2, index_3, sub):\n    if sub == 'MLJ':\n        # MISSING AREA/SOV1 COLUMN BACK INTO MLJ COST FORECAST \n        return (f\"=SUMIFS('Cost Forecast'!{add_to_letter('F', col_index)}:{add_to_letter('F', col_index)},'Cost Forecast'!$R:$R,$B${row-index_3*3},'Cost Forecast'!$Q:$Q,$C{row+1})/SUMIFS('Cost Forecast'!$D:$D,'Cost Forecast'!$R:$R,$B${row-index_3*3},'Cost Forecast'!$Q:$Q, $C{row+1})\")\n    else:\n        #NEED TO ADD CATEGORY COLUMN TO SUB COST FORECAST IMPORT DF\n        #UPDATE SUB COST FORECAST TO INCLUDE AREA IN THE RIGHT FORMAT\n        return (f\"=SUMIFS('Sub Cost Forecast'!{add_to_letter('G', col_index)}:{add_to_letter('G', col_index)},'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R,$C{row+1})/SUMIFS('Sub Cost Forecast'!$D:$D,'Sub Cost Forecast'!$U:$U,$A${sub_row+1},'Sub Cost Forecast'!$W:$W,$B${row-index_3*3},'Sub Cost Forecast'!$R:$R, $C{row+1})\")\ndef wrap_catch_error(formula):\n    return (f'=IFERROR({formula[1:]},0)')",
+        "detail": "src.utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_catch_error",
+        "kind": 2,
+        "importPath": "src.utils.xlsx_formula_utils",
+        "description": "src.utils.xlsx_formula_utils",
+        "peekOfCode": "def wrap_catch_error(formula):\n    return (f'=IFERROR({formula[1:]},0)')",
+        "detail": "src.utils.xlsx_formula_utils",
+        "documentation": {}
+    },
+    {
+        "label": "string_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def string_format(workbook,color='#FFFFFF',heading=False):\n    format = None\n    if heading == True:\n        format = workbook.add_format( \n            {'bold': True,\n            'font_color': 'white',\n            'bg_color': color,\n            'center_across': True,\n            'text_wrap': True,\n            'valign': 'vcenter',",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "number_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def number_format(workbook,color='#FFFFFF'):\n    format = workbook.add_format(\n        {'bg_color': color,\n        'border': 1,\n        'num_format': '_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)'}\n    )\n    return format\ndef currency_format(workbook,color='#FFFFFF'):\n    format = workbook.add_format(\n        {'bg_color': color,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "currency_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def currency_format(workbook,color='#FFFFFF'):\n    format = workbook.add_format(\n        {'bg_color': color,\n        'border': 1,\n        'num_format': '_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)'}\n    )\n    return format\ndef heading_format(workbook):\n    format = workbook.add_format( \n        {'bold': True,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "heading_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def heading_format(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'white',\n        'bg_color': '#366092',\n        'center_across': True,\n        'text_wrap': True,\n        'valign': 'vcenter',\n        'border': 2}\n    )",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "heading_format1",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def heading_format1(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'white',\n        'bg_color': '#366092',\n        }\n    )\n    return format\ndef heading_month_format(workbook):\n    format = workbook.add_format( ",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "heading_month_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def heading_month_format(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'white',\n        'bg_color': '#366092',\n        'center_across': True,\n        'text_wrap': True,\n        'valign': 'vcenter',\n        'border': 2,\n        'num_format': 'mmmm'}",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "percent_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def percent_format(workbook,color):\n    format = workbook.add_format(\n        {'bg_color': color,\n        'border': 1,\n        'num_format': '0.00%'}\n    )\n    return format\ndef date_format(workbook,color):\n    format = workbook.add_format(\n        {'bg_color': color,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "date_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def date_format(workbook,color):\n    format = workbook.add_format(\n        {'bg_color': color,\n        'border': 1,\n        'num_format': 'mm/dd/yyyy'}\n    )\n    return format\ndef month_format(workbook,color):\n    format = workbook.add_format(\n        {'bg_color': color,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "month_format",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def month_format(workbook,color):\n    format = workbook.add_format(\n        {'bg_color': color,\n        'border': 1,\n        'num_format': 'mmmm'}\n    )\n    return format\ndef row_format1(workbook):\n    format = workbook.add_format( \n        {'bold': True,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "row_format1",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def row_format1(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'white',\n        'bg_color': '#366092',\n        }\n    )\n    return format\ndef row_format2(workbook):\n    format = workbook.add_format( ",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "row_format2",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def row_format2(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'black',\n        'bg_color': '#D3D3D3',\n        }\n    )\n    return format\ndef heading_format2(workbook):\n    format = workbook.add_format( ",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "heading_format2",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def heading_format2(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'black',\n        'bg_color': 'white',\n        'center_across': True,\n        'text_wrap': True,\n        'valign': 'vcenter',\n        'border': 2}\n    )",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "heading_format3",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def heading_format3(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'black',\n        'bg_color': '#c3e3e2',\n        'center_across': True,\n        }\n    )\n    return format\ndef summary_text_light(workbook):",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "summary_text_light",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def summary_text_light(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': '#D3D3D3',\n        }\n    )\n    return format\ndef summary_text_red(workbook):\n    format = workbook.add_format( \n        {'bold': True,",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "summary_text_red",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def summary_text_red(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': 'black',\n        'bg_color': 'red',\n        }\n    )\n    return format\ndef summary_text_light_with_white_bg(workbook):\n    format = workbook.add_format( ",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "summary_text_light_with_white_bg",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.formats.standard_formats",
+        "description": "src.xlsxwriters.formats.standard_formats",
+        "peekOfCode": "def summary_text_light_with_white_bg(workbook):\n    format = workbook.add_format( \n        {'bold': True,\n        'font_color': '#D3D3D3',\n        'bg_color': 'white',\n        }\n    )\n    return format",
+        "detail": "src.xlsxwriters.formats.standard_formats",
+        "documentation": {}
+    },
+    {
+        "label": "write_activities",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_activities",
+        "description": "src.xlsxwriters.write_activities",
+        "peekOfCode": "def write_activities(workbook, worksheet, activities_df):\n    for index, col in enumerate(activities_df.columns):\n        if \"Unnamed\" in col: \n            continue\n        worksheet.write(0, index, col, heading_format(workbook))\n    for y in range(activities_df.shape[0]):\n        for x in range(activities_df.shape[1]):\n            xlsx_index = y+2\n            if \"Unnamed\" in activities_df.columns[x]: \n                continue",
+        "detail": "src.xlsxwriters.write_activities",
+        "documentation": {}
+    },
+    {
+        "label": "write_billing_forecast",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_billing_forecast",
+        "description": "src.xlsxwriters.write_billing_forecast",
+        "peekOfCode": "def write_billing_forecast(workbook, worksheet, billing_df):\n    for index, col in enumerate(billing_df.columns):\n        if index > 4 and index < 15:\n            worksheet.write(0, index, col, heading_month_format(workbook))\n        else:\n            worksheet.write(0, index, col, heading_format(workbook))\n    for y in range(billing_df.shape[0]):\n        for x in range(billing_df.shape[1]):\n            if x < 3 or x > 15 and x != 18 and x != 23:\n                worksheet.write(y+1, x, billing_df.iloc[y,x] if not pd.isna(billing_df.iloc[y,x]) else '', string_format(workbook, '#FFFFFF'))",
+        "detail": "src.xlsxwriters.write_billing_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_cost_forecast",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_cost_forecast",
+        "description": "src.xlsxwriters.write_cost_forecast",
+        "peekOfCode": "def write_cost_forecast(workbook, worksheet, updated_df):\n    for index, col in enumerate(updated_df.columns):\n        if \"Unnamed\" in col: \n            continue\n        worksheet.write(0, index, col, heading_format(workbook))\n    for y in range(updated_df.shape[0]):\n        for x in range(updated_df.shape[1]):\n            if \"Unnamed\" in updated_df.columns[x]: \n                continue\n            if updated_df.columns[x] == 'Final Cost':",
+        "detail": "src.xlsxwriters.write_cost_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_forecast_summary",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_forecast_summary",
+        "description": "src.xlsxwriters.write_forecast_summary",
+        "peekOfCode": "def write_forecast_summary(workbook, worksheet):\n    for col in range(1,12):\n        worksheet.write(1, col, 'Cost' if col==1 else '', heading_format1(workbook))\n    worksheet.write(2, 1, '', heading_format3(workbook))\n    worksheet.write(3, 1, 'Labor', string_format(workbook, '#FFFFFF'))\n    worksheet.write(4, 1, 'Equipment', string_format(workbook, '#FFFFFF'))\n    worksheet.write(5, 1, 'Subcontractor', string_format(workbook, '#FFFFFF'))\n    worksheet.write(6, 1, 'Consumable/Material', string_format(workbook, '#FFFFFF'))\n    worksheet.write(7, 1, 'Overhead', string_format(workbook, '#FFFFFF'))\n    worksheet.write(8, 1, 'Total', string_format(workbook, '#FFFFFF'))",
+        "detail": "src.xlsxwriters.write_forecast_summary",
+        "documentation": {}
+    },
+    {
+        "label": "write_sub_cost_forecast",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_sub_cost_forecast",
+        "description": "src.xlsxwriters.write_sub_cost_forecast",
+        "peekOfCode": "def write_sub_cost_forecast(workbook, worksheet, updated_df):\n    for index, col in enumerate(updated_df.columns):\n        if index > 5 and index < 16:\n            worksheet.write(0, index, col, heading_month_format(workbook))\n        else:\n            worksheet.write(0, index, col, heading_format(workbook))\n    for y in range(updated_df.shape[0]):\n        for x in range(updated_df.shape[1]):\n            if x < 3 or x > 16 and x != 19 and x != 21:\n                worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF'))",
+        "detail": "src.xlsxwriters.write_sub_cost_forecast",
+        "documentation": {}
+    },
+    {
+        "label": "write_work_summary",
+        "kind": 2,
+        "importPath": "src.xlsxwriters.write_work_summary",
+        "description": "src.xlsxwriters.write_work_summary",
+        "peekOfCode": "def write_work_summary(workbook, worksheet, billing_sched_df, activities_df):\n    worksheet.write(0,0, 'Subcontractor', heading_format2(workbook))\n    worksheet.write(0,1, 'Category', heading_format2(workbook))\n    worksheet.write(0,2, 'Building', heading_format2(workbook))\n    worksheet.write(0,3, 'Type', heading_format2(workbook))\n    worksheet.write(0,4, 'March', heading_format2(workbook))\n    worksheet.write(0,5, 'April', heading_format2(workbook))\n    worksheet.write(0,6, 'May', heading_format2(workbook))\n    worksheet.write(0,7, 'June', heading_format2(workbook))\n    worksheet.write(0,8, 'July', heading_format2(workbook))",
+        "detail": "src.xlsxwriters.write_work_summary",
+        "documentation": {}
+    },
+    {
+        "label": "updated_cost_df",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "updated_cost_df = add_codes_to_df(cost_rprt_df, cost_sched_df)\nupdated_cost_df = update_codes(cost_rprt_df, updated_cost_df)\nworkbook = xl.Workbook('Updated Schedule.xlsx')\ncost_forecast_worksheet = workbook.add_worksheet('Cost Forecast')\nprint('writing cost forecast')\nwrite_cost_forecast(workbook, cost_forecast_worksheet, updated_cost_df)\nbilling_forecast_worksheet = workbook.add_worksheet('Billing Forecast')\nprint('writing billing forecast')\nwrite_billing_forecast(workbook, billing_forecast_worksheet, billing_sched_df)\nsub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "updated_cost_df",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "updated_cost_df = update_codes(cost_rprt_df, updated_cost_df)\nworkbook = xl.Workbook('Updated Schedule.xlsx')\ncost_forecast_worksheet = workbook.add_worksheet('Cost Forecast')\nprint('writing cost forecast')\nwrite_cost_forecast(workbook, cost_forecast_worksheet, updated_cost_df)\nbilling_forecast_worksheet = workbook.add_worksheet('Billing Forecast')\nprint('writing billing forecast')\nwrite_billing_forecast(workbook, billing_forecast_worksheet, billing_sched_df)\nsub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')\nprint('writing sub cost forecast')",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "workbook",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "workbook = xl.Workbook('Updated Schedule.xlsx')\ncost_forecast_worksheet = workbook.add_worksheet('Cost Forecast')\nprint('writing cost forecast')\nwrite_cost_forecast(workbook, cost_forecast_worksheet, updated_cost_df)\nbilling_forecast_worksheet = workbook.add_worksheet('Billing Forecast')\nprint('writing billing forecast')\nwrite_billing_forecast(workbook, billing_forecast_worksheet, billing_sched_df)\nsub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')\nprint('writing sub cost forecast')\nwrite_sub_cost_forecast(workbook, sub_cost_forecast_worksheet, sub_cost_df)",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "cost_forecast_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "cost_forecast_worksheet = workbook.add_worksheet('Cost Forecast')\nprint('writing cost forecast')\nwrite_cost_forecast(workbook, cost_forecast_worksheet, updated_cost_df)\nbilling_forecast_worksheet = workbook.add_worksheet('Billing Forecast')\nprint('writing billing forecast')\nwrite_billing_forecast(workbook, billing_forecast_worksheet, billing_sched_df)\nsub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')\nprint('writing sub cost forecast')\nwrite_sub_cost_forecast(workbook, sub_cost_forecast_worksheet, sub_cost_df)\nwork_summary_worksheet = workbook.add_worksheet('Work Summary')",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "billing_forecast_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "billing_forecast_worksheet = workbook.add_worksheet('Billing Forecast')\nprint('writing billing forecast')\nwrite_billing_forecast(workbook, billing_forecast_worksheet, billing_sched_df)\nsub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')\nprint('writing sub cost forecast')\nwrite_sub_cost_forecast(workbook, sub_cost_forecast_worksheet, sub_cost_df)\nwork_summary_worksheet = workbook.add_worksheet('Work Summary')\nprint('writing work summary')\nwrite_work_summary(workbook, work_summary_worksheet, billing_sched_df, activities_df)\nforecast_summary_worksheet = workbook.add_worksheet('Forecast Summary')",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "sub_cost_forecast_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "sub_cost_forecast_worksheet = workbook.add_worksheet('Sub Cost Forecast')\nprint('writing sub cost forecast')\nwrite_sub_cost_forecast(workbook, sub_cost_forecast_worksheet, sub_cost_df)\nwork_summary_worksheet = workbook.add_worksheet('Work Summary')\nprint('writing work summary')\nwrite_work_summary(workbook, work_summary_worksheet, billing_sched_df, activities_df)\nforecast_summary_worksheet = workbook.add_worksheet('Forecast Summary')\nprint('writing forecast summary')\nwrite_forecast_summary(workbook, forecast_summary_worksheet)\nactivities_worksheet = workbook.add_worksheet('Activities')",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "work_summary_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "work_summary_worksheet = workbook.add_worksheet('Work Summary')\nprint('writing work summary')\nwrite_work_summary(workbook, work_summary_worksheet, billing_sched_df, activities_df)\nforecast_summary_worksheet = workbook.add_worksheet('Forecast Summary')\nprint('writing forecast summary')\nwrite_forecast_summary(workbook, forecast_summary_worksheet)\nactivities_worksheet = workbook.add_worksheet('Activities')\nprint('writing activities')\nwrite_activities(workbook, activities_worksheet, activities_df)\nworkbook.close()",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "forecast_summary_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "forecast_summary_worksheet = workbook.add_worksheet('Forecast Summary')\nprint('writing forecast summary')\nwrite_forecast_summary(workbook, forecast_summary_worksheet)\nactivities_worksheet = workbook.add_worksheet('Activities')\nprint('writing activities')\nwrite_activities(workbook, activities_worksheet, activities_df)\nworkbook.close()",
+        "detail": "src.app",
+        "documentation": {}
+    },
+    {
+        "label": "activities_worksheet",
+        "kind": 5,
+        "importPath": "src.app",
+        "description": "src.app",
+        "peekOfCode": "activities_worksheet = workbook.add_worksheet('Activities')\nprint('writing activities')\nwrite_activities(workbook, activities_worksheet, activities_df)\nworkbook.close()",
+        "detail": "src.app",
+        "documentation": {}
+    }
+]
