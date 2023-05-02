@@ -15,7 +15,7 @@ def write_sub_cost_forecast(workbook, worksheet, updated_df):
             if x < 3 or x > 16 and x != 19 and x != 21:
                 worksheet.write(y+1, x, updated_df.iloc[y,x] if not pd.isna(updated_df.iloc[y,x]) else 0, string_format(workbook, '#FFFFFF'))
             elif x == 19:
-                worksheet.write(y+1, x, f"=Q{y+2}/E{y+2}", percent_format(workbook, '#FFFFFF'))
+                worksheet.write(y+1, x, f"=Q{y+2}/D{y+2}", percent_format(workbook, '#FFFFFF'))
             elif updated_df.columns[x] == 'Final Total':
                 worksheet.write(y+1, x, f"=SUM(F{y+2}:P{y+2})", currency_format(workbook, '#FFFFFF'))
             elif updated_df.columns[x] == 'Total>Commitment?':

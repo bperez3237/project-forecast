@@ -2,6 +2,8 @@
 from utils.dataframe.dataframe_utils import get_col_widths
 import pandas as pd
 
+
+
 def write_billing_forecast(workbook, worksheet, billing_df):
     for index, col in enumerate(billing_df.columns):
         if index > 4 and index < 15:
